@@ -88,4 +88,4 @@ def roboBuddy4(n):
         print("{} steps {}: {}".format(count, direction, count))
     print("Exit is located at: ({}, {})".format(exit_x, exit_y))
     
-roboBuddy4(1000)
+roboBuddy4(100000)
