@@ -6,12 +6,94 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css" type="text/css">
     <link rel="stylesheet" href="https://pyscript.net/releases/2023.11.1/core.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script type="module" src="https://pyscript.net/releases/2023.11.1/core.js"></script>
+    <nav class="pagebtn">
+        <button class="pagebtn" onclick="changePage('home')">Home</button>
+        <button class="pagebtn" onclick="changePage('about')">About</button>
+        <button class="pagebtn" onclick="changePage('Blog')">Contact</button>
+        <button class="pagebtn" onclick="changePage('robobudy')">Robo Budy</button>
+    </nav>
+
 </head>
 <body>
-    <iframe src="https://replit.com/@ZhaoYue2/Robo-Boddy?embed=true" width="800px" height="800"></iframe>
+    <div class="content" id="home">
+        <h1>Home Page</h1>
+        <h2>News about Quantum Computing</h2>
+
+        <p>Quantum computing, envisioned over 30 years ago, is making advances. Key recent achievements involve the creation of a 64-qubit quantum computer and inventive strategies for controlling and reading quantum bits. Quantum computers function using quantum bits, which can simultaneously exist as both 0s and 1s, unlike classical bits, resulting in potent parallel processing capabilities. This potential presents unparalleled opportunities for computational advancement and could overcome obstacles in fields where classical computing struggles to scale. Quantum computing has the potential to transform industries, including materials manufacturing, energy development, drug discovery, and transportation analysis by outperforming traditional computers in complex calculations. Although quantum computing is still in its infancy, the rapid expansion of its applications signifies a transformative shift in the technology landscape. Moving forward, it is anticipated that quantum and classical computers will coexist seamlessly.</p>
+    </div>
+
+    <div class="content" id="about">
+        <h1>About Quantum Computing</h1>
+        <h2>Introduction:</h2>
+        <p>Quantum computers represent a groundbreaking leap in computational technology, offering both unprecedented benefits and formidable challenges. These machines leverage the principles of quantum mechanics to perform calculations at speeds that classical computers could never achieve. However, realizing their full potential requires overcoming various hurdles in engineering and algorithm development.</p>
+        <br>
+        <br>
+        <h2>Benefits:</h2>
+        <p>Quantum computers hold the promise of solving complex problems at an unparalleled pace. Their ability to perform parallel processing and exploit quantum entanglement enables them to explore multiple solutions simultaneously. This makes them particularly well-suited for tasks such as factoring large numbers, optimizing intricate systems, and simulating quantum phenomena, ushering in a new era of computational capabilities.</p>
+        <br>
+        <br>
+        <h2>Drawbacks:</h2>
+        <p>Despite their immense potential, quantum computers face significant challenges. One notable drawback is their sensitivity to external factors, requiring extremely low temperatures for effective operation. The delicate nature of quantum bits (qubits) also makes them susceptible to decoherence, presenting a major obstacle to stable quantum computation. Additionally, error correction in quantum computations remains a formidable challenge, necessitating breakthroughs in hardware design and error mitigation strategies.</p>
+        <br>
+        <br>
+        <h2>What is Possible:</h2>
+        <p>Quantum computers have the potential to revolutionize various fields. They can efficiently factor large numbers, a task that is immensely time-consuming for classical computers. Quantum computers are also adept at optimizing complex systems, which has applications in areas such as logistics, finance, and cryptography. Furthermore, their ability to simulate quantum phenomena opens new avenues for scientific exploration, contributing to advancements in materials science, chemistry, and physics.</p>
+        <br>
+        <br>
+        <h2>What is Needed to Achieve It:</h2>
+        <p>Achieving the full potential of quantum computing requires addressing key technical and theoretical challenges. Engineers must develop stable and scalable quantum computing systems, overcoming issues related to decoherence and external interference. Advancements in error correction techniques are crucial for the reliability of quantum computations. Additionally, the field needs the continued development of quantum algorithms tailored for specific applications. As researchers make strides in these areas, the path towards unlocking the transformative power of quantum computers becomes clearer.</p>
+        
+    </div>
+
+    <div class="content" id="Blog">
+        <h1>Blog</h1>
+        <p></p>
+    </div>
+
+    <div class="content" id="robobudy">
+        <iframe src="https://replit.com/@ZhaoYue2/Part-1?embed=true"></iframe>
+        <iframe src="https://replit.com/@ZhaoYue2/Part-2?embed=true"></iframe>
+        <iframe src="https://replit.com/@ZhaoYue2/Part-3?embed=true"></iframe>
+        <iframe src="https://replit.com/@ZhaoYue2/Part-4?embed=true"></iframe>    
+    </div>
 
 
+
+
+
+
+
+
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <div class="jumpbtn">
+        <button class="clrChangeBtn" id="btnup" onclick="scrollToTop()">ʌ</button>
+        <button class="clrChangeBtn" id="btndown" onclick="scrollToBottom()">v</button>
+    </div>
+
+    <footer>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <a href="https://youtu.be/dQw4w9WgXcQ?si=4Lc-zmlojU9I3RVG" class="fa fa-facebook"></a>
+        <a href="https://youtu.be/dQw4w9WgXcQ?si=4Lc-zmlojU9I3RVG" class="fa fa-twitter"></a>
+        <a href="https://youtu.be/dQw4w9WgXcQ?si=4Lc-zmlojU9I3RVG" class="fa fa-instagram"></a>
+        <a href="https://youtu.be/dQw4w9WgXcQ?si=4Lc-zmlojU9I3RVG" class="fa fa-github"></a>
+        <a href="https://youtu.be/dQw4w9WgXcQ?si=4Lc-zmlojU9I3RVG" class="fa fa-youtube-play"></a>
+        <br>
+        <br>
+        <div class="copyright-info">
+          &copy; 2023 SIS CS CCT | Email: justanotherfakeemail@gmail.com| Phone: +60 11 2222 3333
+        </div>
+      </footer>
 
     
 

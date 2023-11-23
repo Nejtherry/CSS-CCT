@@ -6,20 +6,20 @@ https://docs.google.com/document/d/10bKX8rk00bkDO2u7kknagpn075-onj6bEbFku7WpHTo/
 import random
 
 def roboBuddy1():
-    x = 0
-    y = 0
+    currentx = 0
+    currenty = 0
     while True:
         direction = input("Enter direction (up, down, left, right): ")
-        if direction == "up" and y < 2:
-            y += 1
-        elif direction == "down" and y > -2:
-            y -= 1
-        elif direction == "left" and x > -2:
-            x -= 1
-        elif direction == "right" and x < 2:
-            x += 1
+        if direction == "up" and currenty < 2:
+            currenty += 1
+        elif direction == "down" and currenty > -2:
+            currenty -= 1
+        elif direction == "left" and currentx > -2:
+            currentx -= 1
+        elif direction == "right" and currentx < 2:
+            currentx += 1
         else:
-            print("RoboBuddy can't move further in that direction.")
+            print("Robot can't move further in that direction.")
 
 def roboBuddy2(n):
     x = 0
@@ -35,7 +35,7 @@ def roboBuddy2(n):
         elif direction == "right" and x < (n-1)/2:
             x += 1
         else:
-            print("RoboBuddy can't move further in that direction.")
+            print("Robot can't move further in that direction.")
 
 def roboBuddy3(n):
     x = 0
@@ -88,4 +88,4 @@ def roboBuddy4(n):
         print("{} steps {}: {}".format(count, direction, count))
     print("Exit is located at: ({}, {})".format(exit_x, exit_y))
     
-roboBuddy4(100000)
+roboBuddy4(10000)

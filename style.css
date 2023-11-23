@@ -1,0 +1,199 @@
+body {
+    background-color: #333;
+    color: white;
+}
+
+
+
+
+
+.pagebtn button{
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #3498db;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.pagebtn button:hover {
+    background-color: #2980b9;
+}
+
+.content {
+    display: none;
+    padding: 20px;
+}
+
+nav {
+    text-align: center;
+    background-color: #3498db;
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding: 15px;
+  }
+
+
+
+
+/*Home*/
+#home {
+    display: block;
+}
+
+#home p, h2, h3 {
+    margin: auto 20%;
+    font-family: Monospace;
+}
+
+#home h1 {
+    font-family: Monospace;
+    font-size: 100px;
+    text-align: center;
+    line-height: 150%;
+}
+
+#home h2 {
+    text-align: center;
+    font-size: 40px;
+    font-style:italic;
+    line-height: 170%;
+}
+
+#home p {
+    line-height: 150%;
+    margin-bottom: auto;
+    font-size: xx-large;
+    text-indent: 40px;
+}
+
+#home p::first-letter {
+    font-size: 60px;
+    color: #3498db;
+}
+
+
+
+
+/*About*/
+#about {
+    display: block;
+}
+
+#about h1 {
+    font-family: Monospace;
+    font-size: 100px;
+    text-align: center;
+    line-height: 150%;
+}
+
+#about p, h2, h3 {
+    margin: auto 20%;
+    font-family: Monospace;
+}
+
+#about h2 {
+    text-align: center;
+    font-size: 40px;
+    font-style:italic;
+    line-height: 170%;
+}
+
+#about p {
+    line-height: 150%;
+    margin-bottom: auto;
+    font-size: xx-large;
+    text-indent: 40px;
+}
+
+#about p::first-letter {
+    font-size: 60px;
+    color: #3498db;
+}
+
+
+/*Blog*/
+#Blog {
+    display: block;
+}
+
+
+
+/*Robo Budy*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.jumpbtn {
+    position: fixed;
+    display: flex;
+    margin: 0;
+    bottom: 1%;
+    left: 96.5%;
+    padding: 20px 20px;
+    flex-direction: column;
+}
+
+.jumpbtn button {
+    background-color: #3498db;
+    border-color: #3498db;
+    text-align: center;
+    color: white;
+    text-shadow: none;
+    border-style: solid;
+    padding: 10px 10px;
+}
+
+.jumpbtn button:hover {
+    color: #2980b9;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: block;
+    bottom: 0;
+    width: 100%;
+}
+
+.social-icon {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.fa
+
+.copyright-info {
+    margin-top: 10px;
+    font-size: 12px;
+}
+
